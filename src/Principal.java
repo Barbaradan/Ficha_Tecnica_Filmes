@@ -6,6 +6,7 @@ public class Principal {
         meuFilme.nome = "O poderoso chefão";
         meuFilme.anoDeLancamento = 1970;
         meuFilme.duracaoEmMinutos = 180;
+        meuFilme.favoriteMovie = "A culpa é das Estrelas";
 
         meuFilme.exibeFichaTecnica();
         meuFilme.avalia(8);
@@ -14,5 +15,6 @@ public class Principal {
         System.out.println(meuFilme.somaDasAvaliacoes);
         System.out.println(meuFilme.totalDeAvaliacoes);
         System.out.println(meuFilme.pegaMedia());
+        meuFilme.exibeFilmeFavorito();
     }
 }
